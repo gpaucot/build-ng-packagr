@@ -1,0 +1,40 @@
+{
+  "author": {
+    "name": "Gaetan Paucot"
+  },
+  "bugs": {
+    "url": "https://github.com/gpaucot/build-ng-packagr"
+  },
+  "builders": "builders.json",
+  "dependencies": {
+    "@angular-devkit/architect": "~0.901.0",
+    "rxjs": "^6.4.0"
+  },
+  "description": "Angular Build Architect for ng-packagr",
+  "engines": {
+    "node": ">= 10.9.0",
+    "npm": ">= 6.2.0"
+  },
+  "experimental": true,
+  "homepage": "https://github.com/gpaucot/build-ng-packagr",
+  "keywords": [
+    "angular",
+    "Angular CLI",
+    "devkit",
+    "sdk",
+    "Angular DevKit"
+  ],
+  "private": false,
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "@gpaucot/build-ng-packagr",
+  "peerDependencies": {
+    "ng-packagr": "^4.0.0 || ^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+://github.com/gpaucot/build-ng-packagr.git"
+  },
+  "typings": "src/index.d.ts",
+  "version": "9.0.1"
+}
