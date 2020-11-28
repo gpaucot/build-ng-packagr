@@ -28,6 +28,10 @@ module.exports = async function postBuild(options, context) {
 };
 ```
 
+
+## v9.0.2
+- Compatibility from v9 and up
+
 ## v9.0.1
 - post-build.js support
 
